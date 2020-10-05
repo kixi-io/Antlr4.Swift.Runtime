@@ -1,3 +1,3 @@
-# Antlr4
+# Antlr4 Swift Runtime
 
-A description of this package.
+The Antlr4 runtime library as a Swift package. All warnings have been fixed.
