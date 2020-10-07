@@ -11,7 +11,7 @@ import Foundation
 public class ANTLRFileStream: ANTLRInputStream {
     private let fileName: String
 
-    public init(_ fileName: String, _ encoding: String.Encoding? = nil) throws {
+    public init(_ fileName: String, _ encoding: String.Encoding? = .utf8) throws {
         self.fileName = fileName
         super.init()
         let fileContents = try String(contentsOfFile: fileName, encoding: encoding ?? .utf8)
